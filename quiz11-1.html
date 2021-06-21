@@ -1,0 +1,72 @@
+﻿<!DOCTYPE HTML>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>연습문제 1</title>  
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    .top-menu {
+      margin:50px auto;
+      padding:0;
+      list-style:none;
+      width:605px;
+      height:35px;
+      box-shadow:0 3px 4px #8b8b8b;
+      background-color:#dadada;
+    }
+    .top-menu li {
+      float:left;
+      border-right:1px solid #929292;
+    }
+    .top-menu li a:link{
+      color:black;
+      text-decoration:none;
+      text-align:center;
+      display:block;
+      width:100px;
+      height:35px;
+      line-height: 35px;
+    }
+    .top-menu li:last-child {
+      border-right:none;      
+    }
+    .top-menu li:not(:last-child) a:hover {
+      background-color:#555;
+      color:#fff;
+    }
+    .top-menu Li:last-child a:hover {
+      background-color:#b30000;
+      color:#fff;
+    }
+    .top-menu li:nth-last-of-type(4) a:hover{
+      transition: background 3s ease-in, radius 3s;
+    }
+    @keyframes background{
+      from{background-color:#555;}
+      30%{background:rgb(73, 68, 68);}
+      50%{background:rgb(59, 55, 55);}
+      to{background-color:rgb(0, 0, 0);
+      color:white;}
+    }
+    @keyframes radius{
+      from{border-radius:100%;}
+      50%{border-radius:75%;}
+      to{border-radius:50%;}
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <ul class="top-menu">
+      <li><a href="#">메뉴1</a></li>
+      <li><a href="#">메뉴2</a></li>
+      <li><a href="#">메뉴3</a></li>
+      <li><a href="#">메뉴4</a></li>
+      <li><a href="#">메뉴5</a></li>
+      <li><a href="#">메뉴6</a></li>
+    </ul>
+  </nav>
+</body>
+</html>
