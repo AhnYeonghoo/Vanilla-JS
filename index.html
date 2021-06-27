@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="Ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cosmic</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="container">   <!--전체 문서가 컨테이너로 묶이고, 그 안에 헤더,본문,푸터가 존재.-->
+        <header>      <!--헤더는 또 로고와 네비게이션(메뉴)로 나뉨-->
+            <div id="logo">
+                <a href="index.html">
+                    <img src="images/logop.jpg" alt="" style="max-width:350%; height:98px;" >
+                </a>
+            </div>
+            <nav>
+                <ul id="topMenu">
+                    <li><a href="#">About</a>
+                        <ul>
+                            <li><a href="동아리 연혁.html">동아리 연혁</a></li>
+                            <li><a href="#">동아리 구성원</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Activity</a>
+                        <ul>
+                            <li><a href="#">정규 세션</a></li>
+                            <li><a href="#">대외활동</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Contact</a>
+                        <ul>
+                        <li><a href="#">동아리방</a></li>
+                        <li><a href="#">Email</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Location</a>
+                    
+                    </li>
+                </ul>
+
+            </nav>
+        </header>   <!--헤더 부분 끝-->
+        <div id="slideShow">  <!--본문 시작 본문엔 슬라이드 쇼,  컨텐츠로 나뉨-->
+            <div id="slides">
+                <img src="./images/main1.jpg" alt="">
+                <img src="./images/main2.jpg" alt="">
+                <img src="./images/main3.png" alt="">
+            </div>
+        </div>
+        <div id="contents">  <!--콘텐츠는 탭메뉴와 퀵메뉴로 나뉨-->
+            <div id="tabMenu">
+                <input type="radio" id="tab1" name="tabs" checked>
+                <label for="tab1">공지사항</label>
+                <input type="radio" id="tab2" name="tabs">
+                <label for=tab2>FAQ</label> 
+
+                <div id="notice" class ="tabContent">
+                    <h2>공지사항입니다.</h2>
+                    <ul>
+                        <li><a href="#">프로젝트 관련 공지</a></li>
+                        <li><a href="#">창업 동아리 관련 공지</a></li>
+                        <li><a href="#">동아리방 청소 예정</a></li>
+                        <li><a href="#">2학기 활동계획</a></li>
+                    </ul>
+                </div>
+                <div id="faq" class="tabContent">
+                    <ul>
+                        <li>모집기간은 언제인가요?</li>
+                        <li>가입조건이 어떤 게 있나요?</li>
+                        <li>어떤 활동을 주로 하나요?</li>
+                        <li>동아리방의 위치가 궁금합니다.</li>
+                    </ul>
+                </div>
+           </div>            
+            <div id="links">
+                <ul>
+                    <li>
+                        <a href="https://www.chungbuk.ac.kr/site/www/main.do" target="_blank">
+                            <span id ="quick-icon1"></span>
+                            <p>충북대학교</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://computer.chungbuk.ac.kr/" target="_blank">
+                            <span id ="quick-icon2"></span>
+                            <p>충북대학교 컴퓨터공학과</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" target="_blank">
+                            <span id="quick-icon3"></span>
+                            <p>문의하기</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>  <!--본문 끝-->
+        <footer>  <!--푸터-->
+            <div id="bottomMenu">
+                <ul>
+                    <li><a href="#">동아리 소개</a></li>
+                    <li><a href="#">개인정보처리방침</a></li>
+                    <li><a href="#">수상실적</a></li>
+                    <li><a href="#">사이트맵</a></li>
+                </ul>
+                <div id="sns">
+                    <ul>
+                        <li><a href="#"><img src="images/sns-1.png"></a></li>
+                        <li><a href="#"><img src="images/sns-2.png"></a></li>
+                        <li><a href="#"><img src="images/sns-3.png"></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="company">
+                <p>충청북도 청주시 서원구 충대로 1 E8-1 공학관 (대표전화)010-3568-3462</p>
+            </div>
+
+        </footer>
+    </div>
+    <script src="js/slideshow.js"></script>
+</body>
+</html>
