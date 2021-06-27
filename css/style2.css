@@ -1,6 +1,17 @@
-*{
-    background-color:steelblue;
-}
+
 p{
     font-weight:600;
+    font-size:30px;
+}
+ul li{
+    text-decoration: none;
+    list-style:none;
+}
+#pho{
+    width:400px;
+    height:300px;
+    float:left;
+    margin: 0 auto;
+    padding:20px;
+    display:block;
 }
