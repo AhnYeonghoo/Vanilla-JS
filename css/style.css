@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Hi+Melody&display=swap');
 *{
     margin:0;
-    padding:0;
-    box-sizing:border-box;  /* 박스 영역은 테두리까지*/
+    box-sizing:border-box; 
+    padding:0; /* 박스 영역은 테두리까지*/
 }
 a{
     text-decoration:none;
@@ -22,15 +22,18 @@ ul{
 header{
     width:100%;
     height:100px;
-    background-color:skyblue;
+    background-color:white;
 }
 
 /* 로고 영역 */
 #logo{
     float:left;
-    width:100px;
-    height:auto;
+    width:250px;
+    height:auto;  
+    
 }
+
+
 /* 네비게이션 영역(메뉴바)*/
 nav{
     float:right;
@@ -48,9 +51,9 @@ nav{
 }
 #topMenu > li > a{
     display: block;
-    color:#fff;
+    color:black;
     font-weight:600;
-    text-shadow:0 1px #07c;
+    text-shadow:0 1px gray;
     padding:20px 60px;
 }
 #topMenu > li > a > span{
@@ -94,9 +97,10 @@ nav{
 #slideShow{
     clear:both;  /* 플로팅 해제*/
     width:100%;
-    height:410px;
+    height:370px;
     position:relative;
     overflow:hidden; /*영역이 넘치면 감춤*/
+    
     
 }
 #slides{
