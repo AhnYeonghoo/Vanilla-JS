@@ -37,6 +37,16 @@ dt{
     clear:both;
     padding-right:20px;
 }
+div{
+    float:center;
+}
+p{
+    font-size:20px;
+}
+ul li{
+    font-size:20px;
+    margin-bottom:10px;
+}
 
 
 
