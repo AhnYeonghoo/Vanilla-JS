@@ -1,17 +1,32 @@
-
-p{
-    font-weight:600;
-    font-size:30px;
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+*{
+    margin:0;
+    box-sizing:border-box; 
+    padding:0; /* 박스 영역은 테두리까지*/
 }
-ul li{
-    text-decoration: none;
+#about::first-letter{
+    color:aquamarine;
+}
+#about{
+    text-align:center;
+    font-size:100px;
+}
+#cos{
+    font-size: 30px;
+    font-family: 'Do Hyeon', sans-serif;
+    margin-left:30px;
+}
+#sub{
+    font-family: 'Do Hyeon', sans-serif;
+    font-weight: 100;
+    margin-bottom:20px;
+}
+ul{
     list-style:none;
 }
-#pho{
-    width:400px;
-    height:300px;
+img{
+    width:300px;
     float:left;
-    margin: 0 auto;
-    padding:20px;
-    display:block;
+    margin-right:20px;
 }
