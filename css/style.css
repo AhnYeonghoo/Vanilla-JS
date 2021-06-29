@@ -17,7 +17,10 @@ ul{
     margin:0 auto; /*화면 중앙에 배치*/
     width:1200px; /*너비(가로) */
 }
-
+#register > input{
+    float:right;
+    margin-right:5px;
+}
 /* 헤더 영역 */
 header{
     width:100%;
