@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+*{
+    background-color:#E8F0F2;
+    font-family: 'Nanum Pen Script', cursive;
+    font-size:30px;
+}
+button{
+    color:darkgreen;
+}
+form{
+    box-sizing:border-box;
+}
+img{
+    margin-top:50px;
+}

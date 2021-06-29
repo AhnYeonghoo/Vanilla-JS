@@ -14,3 +14,19 @@ function showSlides(){
     //특정 함수를 반복해서 실행시키는 함수
 
 }   
+function register(){
+    window.open("register.html","reg","width=500px;","height=500px;");
+}
+function Regi(){
+    alert("회원가입 완료!");
+    
+}
+function Cancel(){
+    alert("초기화 되었습니다.");
+}
+function log(){
+    window.open("log.html","log","width:500px;","height:500px;")
+}
+function login(){
+    alert("로그인 성공!");
+}
