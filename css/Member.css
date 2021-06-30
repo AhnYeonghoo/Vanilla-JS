@@ -7,10 +7,11 @@ header{
     text-align:center;
     border:10px solid white;
     box-sizing:content-box;
-    width:800px;
+    width:500px;
     position:relative;
-    margin-left:220px;
+    margin-left:370px;
     font-family: 'Castoro', serif;
+    box-shadow:3px 3px 3px 3px white;
 }
 dl{
     margin-left:50px;
@@ -20,23 +21,35 @@ h1{
     color:gray;
     font-weight:600;
     font-size:70px;
-    text-shadow: #FC0 1px 0 10px;
+    text-shadow: darkolivegreen 1px 0 10px;
 }
 img{
     float:left;
     margin-right:40px;
 }
-dd{
-    margin:0;
-    font-size:20px;
+dl{
+    margin-bottom:100px;
 }
-
 dt{
     font-size:30px;
     font-weight:600;
     clear:both;
     padding-right:20px;
+    text-align:match-parent;
+    margin-left: 170px;
+    
 }
+dd{
+    margin:0;
+    font-size:20px;
+    
+}
+li{
+    list-style:square;
+}
+
+
+
 
 
 

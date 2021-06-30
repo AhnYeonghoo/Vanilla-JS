@@ -9,7 +9,10 @@ button{
 }
 form{
     box-sizing:border-box;
+    text-align: center;
+    float:center;
 }
 img{
     margin-top:50px;
+    margin-left:370px;
 }

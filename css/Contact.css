@@ -7,10 +7,11 @@ header{
     text-align:center;
     border:10px solid white;
     box-sizing:content-box;
-    width:800px;
+    width:500px;
     position:relative;
-    margin-left:220px;
+    margin-left:370px;
     font-family: 'Castoro', serif;
+    box-shadow:3px 3px 3px 3px white;
 }
 dl{
     margin-left:50px;
@@ -20,7 +21,7 @@ h1{
     color:gray;
     font-weight:600;
     font-size:70px;
-    text-shadow: #FC0 1px 0 10px;
+    text-shadow: darkolivegreen 1px 0 10px;
 }
 img{
     float:left;
