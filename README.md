@@ -6,4 +6,4 @@
     --python,Django 공부 후 게시판까지 구현 할 예정--
     
   
-    ![캡쳐][./images/markdo.png]
+    
