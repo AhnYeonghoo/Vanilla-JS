@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="Ko">
+<head>
+  <meta charset="UTF-8">
+  <title>Momentum</title>
+  <link rel='stylesheet' href='style.css'>
+  <script src='https://unpkg.com/react@17/umd/react.development.js'></script>
+  <script src='https://unpkg.com/react-dom@17/umd/react-dom.development.js'></script>
+  <script src='https://unpkg.com/babel-standalone@6/babel.min.js'></script>
+</head>
+<body>
+  <script src='Practice.js'></script>
+  <div id='root'></div>
+  <script type='text/babel'>
+  
+  class App extends React.Component {
+    constructor (props) {
+      super(props)
+      this.state = {
+        time: new Date()
+      }
+    }
+    
+    render () {
+      return <h1>{this.state.time.toLocaleTimeString()}</h1>
+    }
+    
+    componentDidMount () {
+      this.timerId = setInterval(() => {
+        this.setState({
+          time: new Date()
+        })
+      },1000)
+    }
+
+    componentWillUnmount () {
+      clearInterval(this.timerId)
+    }
+  }
+  const container = document.getElementById('root')
+  ReactDOM.render(<App />, container)
+ 
+  </script>
+
+</body>
+</html>
